@@ -14,9 +14,10 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
     height: 119px;
+    padding: 0 110px;
 }
 
 .topnav-right {
@@ -61,13 +62,6 @@ body {
     margin-right: 35px;
 }
 
-#white {transition: 0.5s ease;}
-
-#white:hover {
-    background-color: #1476FF;
-    color: white;
-}
-
 #blue {
     border: none;
     background-color: #1476FF;
@@ -78,3 +72,43 @@ body {
 #blue:hover {background-color: blue;}
 
 /*topnav endblock*/
+
+/*Step-1 block*/
+.step-1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 81px;
+}
+
+.step-1-left {margin-right: 53px;}
+
+.step-1-left h2 {
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 66px;
+    color: #0B0E2C;
+}
+
+.step-1-left p {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #6F7182;
+    margin-bottom: 43px;
+}
+
+.step-1-left button {
+    width: 170px;
+    height: 54px;
+    font-size: 14px;
+    font-weight: 700;
+    background-color: white;
+    border: 1px solid #E9EAF3;
+    box-shadow: 0px 4px 10px rgba(20, 20, 43, 0.04);
+    border-radius: 48px;
+}
+
+
+/*Step-1 endblock*/
