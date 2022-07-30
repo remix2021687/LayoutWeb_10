@@ -162,3 +162,50 @@ body {
 }
 
 /*Step-2 endblock*/
+
+/*Step-3 block*/
+.step-3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 49px;
+}
+
+.step-3-right h4 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #1476FF;
+    margin-bottom: 13px;
+}
+
+.step-3-right h2 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    color: #0B0E2C;
+}
+
+.step-3-right p {
+    font-size: 14px;
+    font-weight: 400;
+    max-width: 367px;
+    line-height: 26px;
+    margin-top: 8px;
+}
+
+.step-3-right button {
+    width: 160px;
+    height: 52px;
+    background-color: #1476FF;
+    box-shadow: 0px 4px 10px rgba(2, 87, 251, 0.2);
+    border-radius: 44px;
+    border: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: 34px;
+}
+
+/*Step-3 endblock*/
