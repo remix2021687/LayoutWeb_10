@@ -209,3 +209,60 @@ body {
 }
 
 /*Step-3 endblock*/
+
+/*Step-4 block*/
+.step-4 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.step-4-logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 236px;
+    height: 49px;
+    border: 1px solid #E9EAF3;
+    border-radius: 40px;
+    box-shadow: 0px 2px 12px rgba(11, 22, 44, 0.05);
+    margin-bottom: 47px;
+}
+
+.step-4-logo h2 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+    margin-left: 12px;
+}
+
+.step-4-left > h2 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    margin-bottom: 8px;
+}
+
+.step-4-left p {
+    font-size: 9px;
+    font-weight: 400;
+    color: #6F7182;
+    margin-bottom: 44px;
+}
+
+.step-4-left button {
+    width: 200px;
+    height: 52px;
+    background-color: #1476FF;
+    border: none;
+    border-radius: 44px;
+    box-shadow: 0px 4px 10px rgba(2, 87, 251, 0.2);
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+}
+
+/*Step-4 endblock*/
