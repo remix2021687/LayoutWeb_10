@@ -263,6 +263,92 @@ body {
     font-size: 14px;
     font-weight: 700;
     color: white;
+    cursor: pointer;
 }
 
 /*Step-4 endblock*/
+
+/*Step-5 block*/
+.step-5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #E9EAF3;
+    margin-top: 180px;
+}
+
+.step-5-header {
+    margin-top: 180px;
+    text-align: center;
+}
+
+.step-5-header h2 {
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 52px;
+    color: #0B0E2C;
+    margin-bottom: 18px;
+}
+
+.step-5-header p {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #6F7182;
+}
+
+.step-5-up {
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+    margin-top: 15px;
+}
+
+.step-5-down {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    margin-top: 14px;
+}
+
+.step-5-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 0 35px;
+    height: 46px;
+    border-radius: 48px;
+    box-shadow: 0px 4px 10px rgba(2, 87, 251, 0.2);
+    transition: 0.5s ease;
+}
+
+.step-5-box:hover {
+    padding: 0 40px;
+    font-size: 14px;
+    background-color: #1476FF;
+    color: white;
+}
+
+.step-5-content {
+    /* display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 28px;
+    grid-row-gap: 48px; */
+    margin-top: 63px;
+}
+
+.step-5-content h2 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    margin-bottom: 32px;
+    color: #0B0E2C;
+}
+
+/*Step-5 endblock*/
