@@ -334,21 +334,50 @@ body {
     color: white;
 }
 
-.step-5-content {
-    /* display: grid;
+/*Step-5 endblock*/
+
+/*Step-6 block*/
+.step-6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #E9EAF3;
+}
+
+.step-6 button {
+    width: 160px;
+    height: 52px;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 44px;
+    border: none;
+    box-shadow: 0px 4px 10px rgba(2, 87, 251, 0.2);
+    cursor: pointer;
+    margin-top: 49px;
+}
+
+.step-6 > h2 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32px;
+    color: #0B0E2C;
+    margin-top: 63px;
+    margin-bottom: 32px;
+}
+
+.step-6-content {
+    display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 28px;
-    grid-row-gap: 48px; */
-    margin-top: 63px;
+    grid-row-gap: 48px;
 }
 
-.step-5-content h2 {
-    font-size: 32px;
-    font-weight: 700;
-    line-height: 48px;
-    margin-bottom: 32px;
-    color: #0B0E2C;
+.step-6-box h2 {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 400;
 }
 
-/*Step-5 endblock*/
+/*Step-6 endblock*/
